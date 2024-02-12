@@ -1,6 +1,6 @@
 [package]
 name = "filemer"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Puleeno <puleeno@gmail.com>"]
 edition = "2021"
 build = "build.rs"
@@ -8,7 +8,10 @@ build = "build.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+difflib = "0.4.0"
 slint = "1.4"
+sqlite = "0.33.0"
+toml = "0.8.10"
 
 [build-dependencies]
 slint-build = "1.4"
