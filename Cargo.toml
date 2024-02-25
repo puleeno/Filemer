@@ -9,7 +9,8 @@ build = "build.rs"
 
 [dependencies]
 difflib = "0.4.0"
-slint = "1.4"
+image = { version = "0.24.9", features = ["bmp", "dds", "dxt", "exr", "farbfeld", "gif", "hdr", "ico", "jpeg", "jpeg_rayon", "openexr", "png", "pnm", "qoi", "tga", "tiff", "webp"] }
+slint = { version = "1.4", features = ["accessibility", "backend-qt", "backend-winit", "compat-1-2", "renderer-femtovg", "renderer-software", "std", "gettext"] }
 sqlite = "0.33.0"
 toml = "0.8.10"
 
