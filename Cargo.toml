@@ -1,18 +1,6 @@
 [package]
 name = "filemer"
-version = "1.0.0"
-authors = ["Puleeno <puleeno@gmail.com>"]
+version = "2024.9.0"
 edition = "2021"
-build = "build.rs"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-difflib = "0.4.0"
-image = { version = "0.24.9", features = ["bmp", "dds", "dxt", "exr", "farbfeld", "gif", "hdr", "ico", "jpeg", "jpeg_rayon", "openexr", "png", "pnm", "qoi", "tga", "tiff", "webp"] }
-slint = { version = "1.4", features = ["accessibility", "backend-qt", "backend-winit", "compat-1-2", "renderer-femtovg", "renderer-software", "std", "gettext"] }
-sqlite = "0.33.0"
-toml = "0.8.10"
-
-[build-dependencies]
-slint-build = "1.4"
