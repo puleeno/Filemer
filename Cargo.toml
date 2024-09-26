@@ -4,3 +4,7 @@ version = "2024.9.0"
 edition = "2021"
 
 [dependencies]
+pyo3 = { version = "0.22.3" }
+
+
+[build-dependencies]
